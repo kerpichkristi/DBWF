@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace DBWF
 {
-    public partial class Form1 : Form
+    public partial class frmMain : Form
     {
-        public Form1()
+        public frmMain()
         {
             InitializeComponent();
+        }
+
+        private void LogOut_Click(object sender, EventArgs e)
+        {
+            Login objLogin = new Login();
+            this.Hide();
+            objLogin.Show();
         }
     }
 }

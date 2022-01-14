@@ -117,11 +117,37 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="hide-show-vector-linear-icons-260nw-793781707" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\sources\Images\hide-show-vector-linear-icons-260nw-793781707.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ViewPassword.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAkpJREFUOE9tUgtTUmEQ9f86ymTaCx8BBZKPCUhLxErRDBXBtziCD7RkxpoGSa00
+        XzME8ogShgHE0+7SvYnTmfnu3G+/3bO7Z7cGN3B1dYVyufz39g9s47ebqCIokwM78Xkf+oBXr10YdI4j
+        HNmrvP+HRCVQskZ/xHBPa4TV5sD0zBK80z6YzM/wyGhBNpsTn+skQqAEHx4eo7buPsLhXXinFqDTd0Fn
+        6Mbq2iadd9DcakUm80t8FZIa5SeRTKNO04x4/JzKHoNj4A0KxQJyuRzazTYs+4MI7+yi6a4BpdKlxDBU
+        gpa2J4hE9qUKi7WfWomj8Y4eeqogmUzB8Lgb+Xwec/PL8s7gyqUFj2ceDseIGIdH3AiFPlLfNpyenmGL
+        xOzpfQl/YAOLvhXxMbVbxc6oSSRSZLChUCiKYfStl5zXMeGekTtjaHgcgZVN0mVR7rHYuSSQCmKxuDAq
+        Qo66PNTvGtyTc3JncFWBQFCEZSRTaRhNFtKiVGnBNTZFwk3Io9oCkXLvOySczTaAwOom5hf84tPR1Yv1
+        4Jb8q3ugbTbhgATc2z/A8xeDOD45g6ahFdoWI00mQSVbcXGRpVY20NHZIzHSgjKFaDQmY8xkfsNuHxIt
+        SpclGmWRVHdgdnZJJtRwu02mweDQqkX6vPsFtfUP8PXbdyLwyAgf6jvhI/W3tz+hrl4r1TDURZIvQSE5
+        OjpBY5MO9n6nzJzPU0sf7YkZ6fRP8SmXK8EMlYChkLC6vHmsRZ/dqc6csyqZFVQRMJhEIboOtt0MBoA/
+        yHCFCd19PaMAAAAASUVORK5CYII=
+</value>
   </data>
-  <data name="New Bitmap Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\sources\Images\New Bitmap Image.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="HidePassword.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAmlJREFUOE9tUu9PklEU5p9qfWzrk1trrbX1obm+9M222prN0jJMefWNEBW0peWP
+        ShLEHxA6DISZEvKroQ0QrFbLNQciOBvg9r483XvkLmU+27u999znPOc59xwN6lCtVqGqau10DH7mH7+r
+        xykBThCkjc0k5ubdiMTiUGqCZ+T/FxCJ+XwB2g49nhuGYJ12wtj/Ep1dRgQ+hxFYWyfOSYckIJJzuTzu
+        NbcjuB6Fw7HEEnthtc4jEo3j3PkGJhIhnqLUCXAoioKHrTpsbWUw8daGsXErDg//wu32oel2C6aYkCQZ
+        USweEF8U1Yj+hoffwLv8CenMdwy/eoefv36jo9OAtUAYjY1NSCTS5MTQ+4L4og1ykEptQ+rppwC3HGBJ
+        ktSHRDKNhks34HC6MWmx071pYATBWitchAQGh0ax/e0HBe0zLszOLyIa22BfHFqtHn5/gLUwR7az2Ry5
+        EAPRHB0dQX5mRrlcpsDMrAsLi16qOsCqpVIZ2FmMx0ulEnF6ZBMKhSL9kwPnBzds0w4KTFpmEAxGce36
+        LeT3C3TnWvDA8n6W7j3eFXpkDj4NElBUBY/bu1HYL2I9FIOsN6H5/lO0POiCeXAUIRaz2R2oqlW0PpJo
+        Ohx8EBrxmpts83S6Xuzs/MGFi1fZFHaQ28ujeHCAJ1oZ+8wy73119fQykQOVOeDwLq/g8pWbWProR7c8
+        wB53DG2sYjKVxggb7fjEFPEEn6MmcKwWj3/FnbttMLA19vnW2GN6WMUQunRGvB61EEdwBUhAbNXubhaV
+        SoXmL8tmSN19bD/6EAp/ofuTKyxAAidRX0Hg7DjwDxw2gPbTBfjFAAAAAElFTkSuQmCC
+</value>
   </data>
 </root>
