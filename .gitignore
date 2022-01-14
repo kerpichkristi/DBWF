@@ -40,3 +40,5 @@ obj/Debug/DBWF.csproj.FileListAbsolute.txt
 /bin
 *.drawio
 *.docx
+*.config
+*.csproj
