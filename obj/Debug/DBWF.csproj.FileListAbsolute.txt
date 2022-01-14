@@ -10,9 +10,9 @@ C:\Users\K\source\repos\DBWF\DBWF\obj\Debug\DBWF.exe
 C:\Users\K\source\repos\DBWF\DBWF\obj\Debug\DBWF.pdb
 C:\Users\K\source\repos\DBWF\DBWF\bin\Debug\DBWF.pdb
 C:\Users\K\source\repos\DBWF\DBWF\obj\Debug\DBWF.csproj.AssemblyReference.cache
-C:\Users\K\source\repos\DBWF\DBWF\obj\Debug\DBWF.EditUser.resources
 C:\Users\K\source\repos\DBWF\DBWF\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\K\source\repos\DBWF\DBWF\bin\Debug\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\K\source\repos\DBWF\DBWF\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.xml
 C:\Users\K\source\repos\DBWF\DBWF\bin\Debug\Microsoft.AspNetCore.Cryptography.KeyDerivation.xml
 C:\Users\K\source\repos\DBWF\DBWF\obj\Debug\DBWF.frmMainAdmin.resources
+C:\Users\K\source\repos\DBWF\DBWF\obj\Debug\DBWF.EditTravalerAdmin.resources

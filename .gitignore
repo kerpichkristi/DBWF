@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+*.jpg
+*.bmp
+obj/Debug/DBWF.EditTravalerAdmin.resources
+obj/Debug/DBWF.csproj.FileListAbsolute.txt
+obj/Debug/DBWF.EditUser.resources
+obj/Debug/DBWF.csproj.FileListAbsolute.txt

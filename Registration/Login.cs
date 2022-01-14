@@ -44,23 +44,29 @@ namespace DBWF
             
             DataTable dtbl = new DataTable();
             sda.Fill(dtbl);
-            string value = dtbl.Rows[0]["Role"].ToString().Trim();
-            if (value == "Admin")
-            {   
-                frmMainAdmin objFrmMainAdmin = new frmMainAdmin();
-                this.Hide();
-                objFrmMainAdmin.Show();
-            }
-            else if (value == "Customer")
+           
+            try
             {
-                frmMain objFrmMain = new frmMain();
-                this.Hide();
-                objFrmMain.Show();
+                string value = dtbl.Rows[0]["Role"].ToString().Trim();
+                if (value == "Admin")
+                {
+                    frmMainAdmin objFrmMainAdmin = new frmMainAdmin();
+                    this.Hide();
+                    objFrmMainAdmin.Show();
+                }
+                else if (value == "Customer")
+                {
+                    frmMain objFrmMain = new frmMain();
+                    this.Hide();
+                    objFrmMain.Show();
+                }
+                
             }
-            else
+            catch (Exception ex)
             {
                 MessageBox.Show("Check your username and password");
             }
+            
         }
 
         private void Form2_Load(object sender, EventArgs e)
@@ -75,5 +81,14 @@ namespace DBWF
             objRegistration.Show();
         }
 
+        private void lblPassword_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblUserName_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

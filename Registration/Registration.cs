@@ -47,7 +47,7 @@ namespace DBWF
                 using (SqlConnection sqlCon = new SqlConnection(connectionString))
                 {
                     sqlCon.Open();
-                    SqlCommand sqlCmd = new SqlCommand("UserAdd", sqlCon);
+                    SqlCommand sqlCmd = new SqlCommand("AddUser", sqlCon);
                     sqlCmd.CommandType = CommandType.StoredProcedure;
                     sqlCmd.Parameters.AddWithValue("@UserName", txtUserName.Text.Trim());
                     sqlCmd.Parameters.AddWithValue("@Password", HashPassword.GetHashPassword(txtPassword.Text.Trim()));
@@ -71,6 +71,24 @@ namespace DBWF
             objLogin.Show();
         }
 
-       
+        private void txtUserName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mandatoryDot3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mandatoryDot1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
