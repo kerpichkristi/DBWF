@@ -56,6 +56,7 @@ namespace DBWF
                     MessageBox.Show("Registration is successfull");
                     Clear();
                 }
+             
             }
         }
         void Clear() 
@@ -71,24 +72,9 @@ namespace DBWF
             objLogin.Show();
         }
 
-        private void txtUserName_TextChanged(object sender, EventArgs e)
+        private void Close_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void mandatoryDot3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void mandatoryDot1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
+            this.Close();
         }
     }
 }

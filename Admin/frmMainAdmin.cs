@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DBWF.Admin;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -24,19 +25,37 @@ namespace DBWF
             objLogin.Show();
         }
 
-        private void splitContainer1_Panel1_Paint(object sender, PaintEventArgs e)
+        private void Edit_Click(object sender, EventArgs e)
         {
-
+            EditTravalerAdmin objEditTravalerAdmin = new EditTravalerAdmin();
+            this.Hide();
+            objEditTravalerAdmin.Show();
         }
 
-        private void splitContainer1_Panel2_Paint(object sender, PaintEventArgs e)
+        private void Close_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnEditRouts_Click(object sender, EventArgs e)
         {
+            EditRoutsAdmin objEditRoutsAdmin = new EditRoutsAdmin();
+            this.Hide();
+            objEditRoutsAdmin.Show();
+        }
 
+        private void btnEditUsers_Click(object sender, EventArgs e)
+        {
+            EditUsersAdmin objEditUsersAdmin = new EditUsersAdmin();
+            this.Hide();
+            objEditUsersAdmin.Show();
+        }
+
+        private void btnStatistics_Click(object sender, EventArgs e)
+        {
+            StatisticsAdmin objStatisticsAdmin = new StatisticsAdmin();
+            this.Hide();
+            objStatisticsAdmin.Show();
         }
     }
 }

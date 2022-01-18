@@ -36,6 +36,7 @@ namespace DBWF
             this.linkRegistration = new System.Windows.Forms.LinkLabel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnClose = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblUserName
@@ -48,7 +49,6 @@ namespace DBWF
             this.lblUserName.Size = new System.Drawing.Size(84, 21);
             this.lblUserName.TabIndex = 0;
             this.lblUserName.Text = "UserName";
-            this.lblUserName.Click += new System.EventHandler(this.lblUserName_Click);
             // 
             // lblPassword
             // 
@@ -60,7 +60,6 @@ namespace DBWF
             this.lblPassword.Size = new System.Drawing.Size(79, 21);
             this.lblPassword.TabIndex = 1;
             this.lblPassword.Text = "Password";
-            this.lblPassword.Click += new System.EventHandler(this.lblPassword_Click);
             // 
             // txtUserName
             // 
@@ -88,7 +87,7 @@ namespace DBWF
             this.ViewPassword.FlatAppearance.BorderSize = 0;
             this.ViewPassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ViewPassword.Image = ((System.Drawing.Image)(resources.GetObject("ViewPassword.Image")));
-            this.ViewPassword.Location = new System.Drawing.Point(375, 227);
+            this.ViewPassword.Location = new System.Drawing.Point(368, 227);
             this.ViewPassword.Margin = new System.Windows.Forms.Padding(0);
             this.ViewPassword.Name = "ViewPassword";
             this.ViewPassword.Size = new System.Drawing.Size(29, 21);
@@ -102,7 +101,7 @@ namespace DBWF
             this.HidePassword.FlatAppearance.BorderSize = 0;
             this.HidePassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.HidePassword.Image = ((System.Drawing.Image)(resources.GetObject("HidePassword.Image")));
-            this.HidePassword.Location = new System.Drawing.Point(375, 227);
+            this.HidePassword.Location = new System.Drawing.Point(368, 227);
             this.HidePassword.Margin = new System.Windows.Forms.Padding(0);
             this.HidePassword.Name = "HidePassword";
             this.HidePassword.Size = new System.Drawing.Size(29, 21);
@@ -126,6 +125,7 @@ namespace DBWF
             // 
             // linkRegistration
             // 
+            this.linkRegistration.ActiveLinkColor = System.Drawing.Color.MediumPurple;
             this.linkRegistration.AutoSize = true;
             this.linkRegistration.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.linkRegistration.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
@@ -136,6 +136,7 @@ namespace DBWF
             this.linkRegistration.TabIndex = 23;
             this.linkRegistration.TabStop = true;
             this.linkRegistration.Text = "Create new Account";
+            this.linkRegistration.VisitedLinkColor = System.Drawing.Color.MediumPurple;
             this.linkRegistration.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkRegistration_LinkClicked);
             // 
             // label1
@@ -161,12 +162,27 @@ namespace DBWF
             this.label2.TabIndex = 25;
             this.label2.Text = "If You Havent Account";
             // 
+            // btnClose
+            // 
+            this.btnClose.BackColor = System.Drawing.Color.Transparent;
+            this.btnClose.FlatAppearance.BorderSize = 0;
+            this.btnClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gainsboro;
+            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
+            this.btnClose.Location = new System.Drawing.Point(449, 0);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(27, 27);
+            this.btnClose.TabIndex = 26;
+            this.btnClose.UseVisualStyleBackColor = false;
+            this.btnClose.Click += new System.EventHandler(this.Close_Click);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(476, 458);
+            this.Controls.Add(this.btnClose);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.linkRegistration);
@@ -181,7 +197,6 @@ namespace DBWF
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
-            this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -199,5 +214,6 @@ namespace DBWF
         private System.Windows.Forms.LinkLabel linkRegistration;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnClose;
     }
 }

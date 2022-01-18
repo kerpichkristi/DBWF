@@ -59,25 +59,5 @@ namespace DBWF.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap hide_show_vector_linear_icons_260nw_793781707 {
-            get {
-                object obj = ResourceManager.GetObject("hide-show-vector-linear-icons-260nw-793781707", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap New_Bitmap_Image {
-            get {
-                object obj = ResourceManager.GetObject("New Bitmap Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }

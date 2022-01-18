@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using DBWF.Library;
 
 namespace DBWF
 {
@@ -50,30 +51,28 @@ namespace DBWF
                 string value = dtbl.Rows[0]["Role"].ToString().Trim();
                 if (value == "Admin")
                 {
+                    SaveUser.ActiveUser = txtUserName.Text.Trim();
                     frmMainAdmin objFrmMainAdmin = new frmMainAdmin();
                     this.Hide();
+                    
                     objFrmMainAdmin.Show();
                 }
                 else if (value == "Customer")
                 {
+                    SaveUser.ActiveUser = txtUserName.Text.Trim();
                     frmMain objFrmMain = new frmMain();
                     this.Hide();
                     objFrmMain.Show();
                 }
-                
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Check your username and password");
             }
             
-        }
 
-        private void Form2_Load(object sender, EventArgs e)
-        {
 
         }
-
         private void linkRegistration_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Registration objRegistration = new Registration();
@@ -81,14 +80,9 @@ namespace DBWF
             objRegistration.Show();
         }
 
-        private void lblPassword_Click(object sender, EventArgs e)
+        private void Close_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void lblUserName_Click(object sender, EventArgs e)
-        {
-
+            this.Close();
         }
     }
 }
