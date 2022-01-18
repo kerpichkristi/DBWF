@@ -1,6 +1,19 @@
 # DBWF
 ## App For Travelers To Save Travel Itineraries
 
+## Pre-alfa ver 0.8.0
+- Was Add frames to Edit Information
+- Was Add frame for Statistics
+
+![AdminDashboard](https://imgur.com/nrcSWOA.png)
+
+![CustomerDashboard](https://imgur.com/He9iOlU.png)
+
+![AdminDashboardEdit](https://imgur.com/0wfyPoH.png)
+
+![UsersDashboardEdit](https://imgur.com/MDJBx6E.png)
+
+
 ## Pre-alfa ver 0.4.0
 
 Changes:
